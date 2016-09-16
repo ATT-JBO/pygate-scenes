@@ -8,7 +8,7 @@ __status__ = "Prototype"  # "Development", or "Production"
 import json
 from time import sleep                             #pause the app
 
-from core import config, cloud, device, modules
+from pygate_core import config, cloud, device, modules
 from scene import Scene
 
 SCENEDEF_ID = 'sceneDefs'                                                            #the id of the button, don't uses spaces. required for the att platform
